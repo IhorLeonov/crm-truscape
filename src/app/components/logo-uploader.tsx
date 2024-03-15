@@ -11,10 +11,10 @@ export interface LogoUploaderProps
 }
 
 export default function LogoUploader({
+  square,
   label,
   placeholder,
   id,
-  square,
   ...rest
 }: LogoUploaderProps) {
   return (

@@ -7,8 +7,6 @@
 //   });
 // };
 
-import { log } from 'console';
-
 // export const getSummarySales = () => {
 //   const items = [];
 //   for (let i = 0; i < 6; i++) {
