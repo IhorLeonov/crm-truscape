@@ -15,7 +15,7 @@ export default function CompanyRow({ company }: CompanyRowProps) {
       <td className="text-xs font-medium text-blue-700 rounded-l border-l-4 border-blue-700">
         {company.categoryTitle}
       </td>
-      <td>
+      <td className="hover:text-green-400">
         <Link href={`/companies/${company.id}`}>{company.title}</Link>
       </td>
       <td>
