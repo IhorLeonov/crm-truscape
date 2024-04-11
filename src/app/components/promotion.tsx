@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import { Promotion } from '@/lib/api';
+import { IPromotion } from '@/lib/api';
 
 export interface PromotionProps {
-  promotion: Promotion;
+  promotion: IPromotion;
 }
 
 export default function Promotion({ promotion }: PromotionProps) {
